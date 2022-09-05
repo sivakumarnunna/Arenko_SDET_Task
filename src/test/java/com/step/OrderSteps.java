@@ -2,8 +2,8 @@ package com.step;
 
 import java.io.IOException;
 
-import com.luxsoft.model.*;
-import com.luxsoft.commonutils.*;
+import com.arenko.model.*;
+import com.arenko.commonutils.*;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
