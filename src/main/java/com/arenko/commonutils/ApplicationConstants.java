@@ -25,24 +25,16 @@ public static final int DELETE_REQUEST = 2;
 public static final int PUT_REQUEST = 3;
 	
 	public static String BASE_URL;
-	public static String USER_NAME;
-    public static String PASSWORD;
 	public static String SOT_PATH;
-	public static String authToken;
-    public static String ORDER_END_POINT;
   
 	static {
 		
 		try {
-			properties.load(new FileInputStream("applicationUnderTest.properties"));
+			properties.load(new FileInputStream("resources\\properties\\applicationUnderTest.properties"));
 			BASE_URL = properties.getProperty("baseURL");
-			USER_NAME =  properties.getProperty("username");
-			PASSWORD =   properties.getProperty("password");
 			SOT_PATH   =  properties.getProperty("sotpath");
-		    ORDER_END_POINT   =  properties.getProperty("orderendpoint");
 			
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
