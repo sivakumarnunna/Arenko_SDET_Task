@@ -22,6 +22,7 @@ public class ApplicationConstants {
 	public static final int POST_REQUEST = 1;
 	public static final int DELETE_REQUEST = 2;
 	public static final int PUT_REQUEST = 3;
+	public static final int PATCH_REQUEST = 4;
 
 	public static String BASE_URL;
 	public static String SOT_PATH;
