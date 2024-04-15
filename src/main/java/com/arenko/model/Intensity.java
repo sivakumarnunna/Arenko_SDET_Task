@@ -1,11 +1,9 @@
 package com.arenko.model;
 
 import java.util.Objects;
-import javax.annotation.Generated;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-@Generated("jsonschema2pojo")
 public class Intensity {
 
 @SerializedName("forecast")
